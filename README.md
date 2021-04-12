@@ -32,4 +32,4 @@ yarn dev
 
 _Observação:_ Não altere a porta, a aplicação irá dar problemas.
 
-Depois de ter feitos esses passos basta abrir a pasta frontend. Utilizei a extensão no vscode chamada "live server", com isso iniciar o live server que o frontend comece a funcionar
+Depois de ter feitos esses passos basta abrir a pasta frontend. Utilizei a extensão no vscode chamada "live server", com isso, inicie o live server que o frontend vai começar a funcionar.
