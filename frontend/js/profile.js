@@ -58,7 +58,7 @@ async function remove(e) {
         console.log(data)
         if (data.status == 200) {
             localStorage.clear()
-            window.location.href = "/login.html"
+            window.location.href = "/index.html"
         } else {
             window.alert('Não foi possível remover o usuário')
         }

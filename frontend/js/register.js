@@ -24,7 +24,7 @@ async function register(e) {
         console.log(data)
         if (data.status == 200) {
             window.alert('Usuário cadastrado com sucesso!')
-            window.location.href = "/login.html"
+            window.location.href = "/index.html"
         } if(data.status == 409){
             window.alert('Ocorreu um erro ao criar o usuário')
             window.location.reload()

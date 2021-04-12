@@ -28,7 +28,7 @@ async function login(e) {
                 localStorage.setItem('email', user.email)
                 localStorage.setItem('password', user.password)
             })
-            window.location.href = "/index.html"
+            window.location.href = "/home.html"
         } else {
             window.alert('Não foi possível fazer o login.')
         }
