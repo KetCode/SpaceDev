@@ -1,0 +1,100 @@
+/* 
+ *  PAGE 
+ */
+.main {
+    min-height: calc(100vh - 73px);
+}
+
+#home .wrapper {
+    background-image: url('/img/telescope.png'); 
+    background-repeat: no-repeat; 
+    background-position: bottom; 
+    background-size: 455px;
+}
+
+#profile {
+    color: #FFFFFF;
+
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
+  
+#profile p {
+    font-size: 1.34rem; /* 20px of 16px root*/
+    line-height: 1.875rem; /*30px of 16px root*/
+    margin-right: 1.25rem;
+  
+    font-weight: 600;
+}
+  
+#profile span {
+    display: block;
+  
+    font-weight: normal;
+    font-size: 0.94rem; /* 14px of 16px root*/
+    line-height: 1.5rem; /* 24px of 16px root*/
+  
+    font-weight: 400;
+}
+
+#profile p span:hover {
+    color: rgb(18, 18, 20);
+}
+
+#profile img {
+    width: 4rem; /* 64px of 16px root*/
+    height: 4rem; /* 64px of 16px root*/
+    border-radius: 50%;
+    border: 0.156rem solid rgb(18, 18, 20); /* 2.5px of 16px root*/
+    transition: transform .5s ease;
+    -webkit-transition: -webkit-transform .5s ease;
+}
+
+#profile img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1)
+}
+
+/* 
+ *  PROFILE PAGE 
+ */
+#profile-view .profile-img {
+    width: 150px;
+    border: 0.19rem solid rgb(18, 18, 20);
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+
+#profile-view .button {
+    margin-top: 25px;
+}
+
+/* 
+ *  BRANDLOGO (login - register)
+ */
+ #brandLogo .logo{
+    width: 8rem;
+    height: 8rem;
+    margin-left: -20px;
+}
+
+#brandLogo h1{
+    color:#8257E5;
+    margin-bottom: 0px;
+    margin-left: -10px;
+    letter-spacing: -3px;
+}
+
+.textColumn h1 {
+    color: #2E384D;
+    margin-bottom: 24px;
+    font-size: 54px;
+    line-height: 64px;
+}
+
+.textColumn.textLine {
+    max-width: min(1440px, 90vw);
+    align-items: center;
+    text-align: center;
+}

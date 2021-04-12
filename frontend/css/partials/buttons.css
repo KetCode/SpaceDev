@@ -1,0 +1,31 @@
+/* 
+ *  BUTTON 
+ */
+.button {
+    background: #8257E5;
+    border-radius: 5px;
+    border: 0px;
+    color: #FFFFFF;
+    font-weight: bold;
+    height: 50px;
+    transition: background 0.2s ease 0s, color 0.2s ease 0s;
+    font-size: 16px;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.vermelho {
+    background: red;
+}
+
+button:hover {
+    background: #A883FF;
+    border: 0px;
+}
+
+.register {
+    font-size: 14px;
+    margin-top: 24px;
+    color:  #666666;
+    text-align: center;
+}

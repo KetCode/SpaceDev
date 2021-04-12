@@ -1,0 +1,71 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/logo.png" type="image/png" />
+    <title>SpaceDev</title>
+    
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/pages/style.css">
+    <link rel="stylesheet" href="/css/partials/header.css">
+    <link rel="stylesheet" href="/css/partials/card.css">
+    <link rel="stylesheet" href="/css/partials/buttons.css">
+    <link rel="stylesheet" href="/css/partials/media.css">
+    <link rel="stylesheet" href="/css/partials/animations.css">
+</head>
+<body id="profile-view">
+    <header class="header">
+        <div class="separated">
+            <div class="header-logo">
+                <a href="./index.html" style="display: flex;"><img class="logo" src="./fonts/svg/long-arrow-alt-left-solid.svg" alt="voltar" style="width: 25px"></a>
+            </div>
+        </div>
+    </header>
+    <div class="container main animate-up delay-2">
+        <div class="wrapper">
+            <div class="column">
+                <div class="textLine">
+                    <form id="form-register" class="form" method="POST" action="">
+                        <img class="profile-img" src="./img/avatar.jpg" alt="Logo">
+                        <section class="inputs">
+                            <div class="input">
+                                <img src="./fonts/svg/user-solid.svg">
+                                <input type="text" id="name" name="name" placeholder="Nome"/>
+                            </div>
+                            <div class="input">
+                                <img src="./fonts/svg/user-solid.svg">
+                                <input type="text" id="surname" name="surname" placeholder="Sobrenome"/>
+                            </div>
+                            <div class="input">
+                                <img src="./fonts/svg/envelope-solid.svg">
+                                <input type="email" id="email" name="email" placeholder="E-mail"/>
+                            </div>
+                            <div class="input">
+                                <img src="./fonts/svg/lock-solid.svg">
+                                <input type="password" id="password" name="password" placeholder="Senha"/>
+                            </div>
+                        </section>
+                        <button 
+                        class="button" 
+                        form="form-register" 
+                        type="submit"
+                        onclick="update(event)" 
+                        title="Salvar Dados">Salvar</button>
+                        <button 
+                        class="button vermelho" 
+                        form="form-register" 
+                        type="submit"
+                        onclick="remove(event)" 
+                        title="Deletar Dados">Deletar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./js/profile.js"></script>
+</html>

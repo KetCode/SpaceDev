@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/logo.png" type="image/png" />
+    <title>SpaceDev</title>
+    
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/pages/style.css">
+    <link rel="stylesheet" href="/css/partials/header.css">
+    <link rel="stylesheet" href="/css/partials/card.css">
+    <link rel="stylesheet" href="/css/partials/buttons.css">
+    <link rel="stylesheet" href="/css/partials/media.css">
+    <link rel="stylesheet" href="/css/partials/animations.css">
+</head>
+<body id="register">
+    <div class="container animate-up delay-1">
+        <div class="wrapper">
+            <div class="column">
+                <div class="row">
+                    <form id="form-register" class="form" method="POST" action="">
+                        <section class="inputs">
+                            <div class="input">
+                                <img src="./fonts/svg/user-solid.svg">
+                                <input type="text" id="name" name="name" placeholder="Nome"/>
+                            </div>
+                            <div class="input">
+                                <img src="./fonts/svg/user-solid.svg">
+                                <input type="text" id="surname" name="surname" placeholder="Sobrenome"/>
+                            </div>
+                            <div class="input">
+                                <img src="./fonts/svg/envelope-solid.svg">
+                                <input type="email" id="email" name="email" placeholder="E-mail"/>
+                            </div>
+                            <div class="input">
+                                <img src="./fonts/svg/lock-solid.svg">
+                                <input type="password" id="password" name="password" placeholder="Senha"/>
+                            </div>
+                        </section>
+                        <div class="middle">
+                            <a class="link" href="./login.html">Já tem uma conta?</a>
+                        </div>
+                        <button 
+                        class="button" 
+                        form="form-register" 
+                        type="submit"
+                        onclick="register(event)" 
+                        title="Cadastrar">Cadastrar</button>
+                    </form>
+                    <div class="textColumn">
+                        <div id="brandLogo">
+                            <img class="logo" src="./img/logo.png" alt="Logo">
+                            <h1>SpaceDev</h1>
+                        </div>
+                        <h1>Junte-se a nós</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./js/register.js"></script>
+</html>

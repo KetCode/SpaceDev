@@ -1,0 +1,20 @@
+/* 
+ *  MEDIA 
+ */
+ @media(max-width:590px) {
+    .row { 
+        display: unset !important;
+    }
+}
+
+@media(max-width:450px) {
+    .form {
+        padding: 35px
+    }
+}
+
+@media(max-width:260px) {
+    .form {
+        padding: 18px
+    }
+}

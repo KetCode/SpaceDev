@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/logo.png" type="image/png" />
+    <title>SpaceDev</title>
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/pages/style.css">
+    <link rel="stylesheet" href="/css/partials/header.css">
+    <link rel="stylesheet" href="/css/partials/card.css">
+    <link rel="stylesheet" href="/css/partials/buttons.css">
+    <link rel="stylesheet" href="/css/partials/media.css">
+    <link rel="stylesheet" href="/css/partials/animations.css">
+</head>
+<body id="login">
+    <div class="container animate-up delay-1">
+        <div class="wrapper">
+            <div class="column">
+                <div class="row">
+                    <div class="textColumn">
+                        <div id="brandLogo">
+                            <img class="logo" src="./img/logo.png" alt="Logo">
+                            <h1>SpaceDev</h1>
+                        </div>
+                        <h1>Faça seu login</h1>
+                    </div>
+                    <form id="form-login" class="form" method="POST" action="">
+                        <section class="inputs">
+                            <div class="input">
+                                <img src="./fonts/svg/envelope-solid.svg">
+                                <input type="email" id="email" name="email" placeholder="E-mail"/>
+                            </div>
+                            <div class="input">
+                                <img src="./fonts/svg/lock-solid.svg">
+                                <input type="password" id="password" name="password" placeholder="Senha"/>
+                            </div>
+                        </section>
+                        <div class="middle">
+                            <a class="link" href="">Esqueci minha senha</a>
+                        </div>
+                        <button 
+                        class="button" 
+                        form="form-login" 
+                        type="submit" 
+                        onclick="login(event)"
+                        title="Entrar">Entrar</button>
+                        <div class="register">
+                            Não tem uma conta? <a class="link" href="./register.html">Registre-se</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./js/login.js"></script>
+</html>

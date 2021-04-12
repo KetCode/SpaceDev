@@ -1,0 +1,36 @@
+/* 
+ *  HEADER 
+ */
+ .header {
+    background:#8257E5;
+    font-size: 18px;
+    line-height: 73px;
+}
+
+.separated {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    color: #FFFFFF;
+
+    display: flex;
+    align-items: center;
+}
+
+.header-logo .logo {
+    width: 4rem;
+    height: 4rem;
+    margin-left: 25px;
+}
+
+.header-logo h1 {
+    font-weight: 700;
+    letter-spacing: -3px;
+}
+
+.header .nav {
+    padding-right: 35px;
+}
