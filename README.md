@@ -21,6 +21,8 @@ https://github.com/KetCode/SpaceDev.git
 
 ou descompacte o arquivo zip enviado.
 
+Será preciso a utilização do banco de dados mysql. Para configurar conforme o login da sua máquina, entre na pasta `backend/src/config/` e abra o arquivo database.js, nele você irá alterar a linha 4 (username) e 5 (password), com o mesmo login do mysql da sua máquina.
+
 Abra a pasta backend e execute os seguintes comandos:
 
 ```
